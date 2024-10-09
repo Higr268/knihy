@@ -2,8 +2,9 @@
 def pridat_knihu(knihy):
     nazev = input("Zadej název knihy: ")
     if nazev in knihy:
-        print(f"Kniha s názvem {nazev} v knihovně už je.")
+        print(f"Kniha s názvem {nazev} v knihovně už je. ")
         return
+    
     autor = input(f"Zadej autora knihy {nazev}: ")
 
     while True:
